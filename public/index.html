@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>영화 검색 서비스</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>영화 검색 서비스</h1>
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="영화 제목을 입력하세요...">
+            <button onclick="searchMovies()">검색</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="search-results hidden">
+            <h2>검색 결과</h2>
+            <div class="loading">검색 중...</div>
+            <div class="movie-grid"></div>
+        </section>
+
+        <section class="popular-movies">
+            <h2>인기 영화</h2>
+            <div class="movie-grid" id="popularMovies"></div>
+        </section>
+    </main>
+
+    <div id="movieModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="movieDetails"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 

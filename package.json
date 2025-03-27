@@ -1,0 +1,26 @@
+{
+  "name": "movie_project",
+  "version": "1.0.0",
+  "description": "영화 프로젝트\r nodejs 프로젝트 영화 프로젝트입니다",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tkcjs0204/movie_project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tkcjs0204/movie_project/issues"
+  },
+  "homepage": "https://github.com/tkcjs0204/movie_project#readme",
+  "dependencies": {
+    "axios": "^1.8.4",
+    "exceljs": "^4.4.0",
+    "express": "^4.21.2",
+    "sqlite3": "^5.1.7"
+  }
+}
